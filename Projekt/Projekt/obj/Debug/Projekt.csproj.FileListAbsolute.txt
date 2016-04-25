@@ -1,0 +1,9 @@
+C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\obj\Debug\Projekt.Browse_products.resources
+C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
+C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\bin\Debug\Projekt.exe
+C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\bin\Debug\Projekt.pdb
+C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\bin\Debug\MySql.Data.dll
+C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\obj\Debug\Projekt.exe
+C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\obj\Debug\Projekt.pdb
