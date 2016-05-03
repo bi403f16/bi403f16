@@ -1,6 +1,6 @@
-﻿namespace BaressoShop
+﻿namespace Classes
 {
-    partial class Form1
+    partial class Shop_form
     {
         /// <summary>
         /// Required designer variable.

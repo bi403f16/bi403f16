@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BaressoShop
+namespace Classes
 {
-    public partial class Form1 : Form
+    public partial class Shop_form : Form
     {
-        public Form1()
+        public Shop_form()
         {
             InitializeComponent();
         }
@@ -21,7 +21,7 @@ namespace BaressoShop
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MyShop.Add(new Shop("Bredgade", "Aalborg", "Bredgade 12", 9000 , 22234521, false));
+            MyShop.Add(new Shop(1337, "Bredgade", "Aalborg", "Bredgade 12", 9000 , 22234521, false));
 
             foreach (Shop s in MyShop)
             {
