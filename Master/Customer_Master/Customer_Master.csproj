@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Functions\Connection_class.cs" />
     <Compile Include="Interface\Shop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,21 +58,25 @@
     <Compile Include="Interface\Browse_products.Designer.cs">
       <DependentUpon>Browse_products.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\Customer_class.cs" />
-    <Compile Include="Interface\Form1.cs">
+    <Compile Include="Functions\Log-in.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Interface\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Functions\Log-in.Designer.cs">
+      <DependentUpon>Log-in.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Customer_class.cs" />
     <Compile Include="Model\Shop_class.cs" />
     <Compile Include="Model\Products_class.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\User_class.cs" />
     <EmbeddedResource Include="Interface\Browse_products.resx">
       <DependentUpon>Browse_products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Functions\Log-in.resx">
+      <DependentUpon>Log-in.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -94,9 +100,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controller%28Functions%29\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
