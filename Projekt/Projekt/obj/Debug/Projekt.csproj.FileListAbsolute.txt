@@ -7,3 +7,6 @@ C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\bin\Debug\Projekt.pdb
 C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\bin\Debug\MySql.Data.dll
 C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\obj\Debug\Projekt.exe
 C:\Users\Johannes\Downloads\BAIT\GOOP\Projekt\Projekt\obj\Debug\Projekt.pdb
+C:\Users\bjarn\Documents\GitHub\bi403f16\Projekt\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\bjarn\Documents\GitHub\bi403f16\Projekt\Projekt\obj\Debug\Projekt.exe
+C:\Users\bjarn\Documents\GitHub\bi403f16\Projekt\Projekt\obj\Debug\Projekt.pdb
