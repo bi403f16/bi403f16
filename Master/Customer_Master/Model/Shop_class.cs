@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,9 @@ using MySql.Data;
 using MySql.Data.MySqlClient;
 
 namespace Classes
+=======
+﻿namespace Classes
+>>>>>>> b3799d4b29c307f9548feed8a8998d196e6b655d
 {
     public class Shop
     {

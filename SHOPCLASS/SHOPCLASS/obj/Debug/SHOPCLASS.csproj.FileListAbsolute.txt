@@ -1,0 +1,9 @@
+c:\users\bjarn\documents\visual studio 2015\Projects\SHOPCLASS\SHOPCLASS\bin\Debug\SHOPCLASS.exe.config
+C:\Users\bjarn\Documents\Visual Studio 2015\Projects\SHOPCLASS\SHOPCLASS\obj\Debug\SHOPCLASS.csprojResolveAssemblyReference.cache
+C:\Users\bjarn\Documents\Visual Studio 2015\Projects\SHOPCLASS\SHOPCLASS\obj\Debug\SHOPCLASS.Properties.Resources.resources
+C:\Users\bjarn\Documents\Visual Studio 2015\Projects\SHOPCLASS\SHOPCLASS\obj\Debug\SHOPCLASS.csproj.GenerateResource.Cache
+C:\Users\bjarn\Documents\Visual Studio 2015\Projects\SHOPCLASS\SHOPCLASS\bin\Debug\SHOPCLASS.exe
+C:\Users\bjarn\Documents\Visual Studio 2015\Projects\SHOPCLASS\SHOPCLASS\bin\Debug\SHOPCLASS.pdb
+C:\Users\bjarn\Documents\Visual Studio 2015\Projects\SHOPCLASS\SHOPCLASS\obj\Debug\SHOPCLASS.exe
+C:\Users\bjarn\Documents\Visual Studio 2015\Projects\SHOPCLASS\SHOPCLASS\obj\Debug\SHOPCLASS.pdb
+C:\Users\bjarn\Documents\Visual Studio 2015\Projects\SHOPCLASS\SHOPCLASS\obj\Debug\BaressoApp.Form1.resources

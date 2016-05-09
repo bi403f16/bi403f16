@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MySql.Data;
-using MySql.Data.MySqlClient;
 
 namespace Classes
 {
     public class MySqlConnection
     {
+        private string connStr;
+
+        public MySqlConnection(string connStr)
+        {
+            this.connStr = connStr;
+        }
+
         public static void Main(string[] args)
         {
             string connStr = "server=localhost;user=root;database=conntest;port=3306;password=¤¤¤¤¤¤;charset=latin1;";
@@ -56,6 +57,10 @@ namespace Classes
             Console.ReadLine();             //Skal nok fjernes!
         }
 
+        private void Open()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 
