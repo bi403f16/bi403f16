@@ -7,36 +7,69 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 
 namespace Login
 {
     public partial class Login : Form
     {
+        private string connStr;
+        private MySqlConnection conn;
         public Login()
         {
             InitializeComponent();
         }
-        private void textBoxEmail_TextChanged(object sender, EventArgs e)
+        private void connect_to_DB()
         {
-
+            try
+            {
+                connStr = "server=localhost;user=root;database=p4_projekt;port=3306;password=Jeppesen95;charset=latin1;";
+                conn = new MySqlConnection(connStr);
+                conn.Open();
+            }
+            catch(MySqlException e)
+            {
+                throw;
+            }
         }
-        private void textBoxPass_TextChanged(object sender, EventArgs e)
+        private bool login_validation(string email,string pass)
         {
-          
+            connect_to_DB();
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.CommandText = "Select * from customer_table where Email=@email and Password=@pass";
+            cmd.Parameters.AddWithValue("@email", email);
+            cmd.Parameters.AddWithValue("@pass", pass);
+            cmd.Connection = conn;
+            MySqlDataReader login = cmd.ExecuteReader();
+            if (login.Read())
+            {
+                conn.Close();
+                return true;
+            }
+            else
+            {
+                conn.Close();
+                return false;
+            }
         }
+        
 
         private void buttonSubmit_Click(object sender, EventArgs e)
-        {/*
-            Email = textBoxEmail.Text;
-            Password = textBoxPass.Text;
-            if (Email == "" && Password == "")
+        {
+            string email = textBoxEmail.Text;
+            string pass = textBoxPass.Text;
+            if (email == "" || pass == "")
             {
-                MessageBox.Show("Please Enter Email and Password");
+                MessageBox.Show("Tomme felter, udfyld venligst begge felter");
+                return;
             }
-            else {
-
-            }*/
+            bool r = login_validation(email, pass);
+            if(r)
+                MessageBox.Show("Korrekte oplysninger");
+            else
+                MessageBox.Show("Forkerte oplysninger");
         }
     }
 }
