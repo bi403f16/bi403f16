@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< HEAD
+=======
+using System.Windows.Forms;
+>>>>>>> fe474f9695f4da1350c24db7fb8563f3aa26fe9e
 using MySql.Data;
 using MySql.Data.MySqlClient;
 
