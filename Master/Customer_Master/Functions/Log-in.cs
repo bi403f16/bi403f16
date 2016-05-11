@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
+using Customer_Master;
 
 namespace Login
 {
@@ -29,12 +30,12 @@ namespace Login
                 conn = new MySqlConnection(connStr);
                 conn.Open();
             }
-            catch(MySqlException e)
+            catch (MySqlException e)
             {
                 throw;
             }
         }
-        private bool login_validation(string email,string pass)
+        private bool login_validation(string email, string pass)
         {
             connect_to_DB();
             MySqlCommand cmd = new MySqlCommand();
@@ -54,7 +55,7 @@ namespace Login
                 return false;
             }
         }
-        
+
 
         private void buttonSubmit_Click(object sender, EventArgs e)
         {
@@ -66,8 +67,14 @@ namespace Login
                 return;
             }
             bool r = login_validation(email, pass);
-            if(r)
+            if (r)
+            {
                 MessageBox.Show("Korrekte oplysninger");
+                this.Hide();
+                LogintoProfile name = new LogintoProfile();
+                name.ShowDialog();  
+            }
+
             else
                 MessageBox.Show("Forkerte oplysninger");
         }
