@@ -47,12 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+
     <Compile Include="Controller%28Functions%29\Connection.cs" />
     <Compile Include="Customer_program.cs" />
-=======
+
     <Compile Include="Functions\Connection_class.cs" />
->>>>>>> fe474f9695f4da1350c24db7fb8563f3aa26fe9e
+
     <Compile Include="Interface\Shop.cs">
       <SubType>Form</SubType>
     </Compile>

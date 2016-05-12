@@ -7,3 +7,10 @@ C:\Users\bjarn\Documents\Visual Studio 2015\Projects\SHOPCLASS\SHOPCLASS\bin\Deb
 C:\Users\bjarn\Documents\Visual Studio 2015\Projects\SHOPCLASS\SHOPCLASS\obj\Debug\SHOPCLASS.exe
 C:\Users\bjarn\Documents\Visual Studio 2015\Projects\SHOPCLASS\SHOPCLASS\obj\Debug\SHOPCLASS.pdb
 C:\Users\bjarn\Documents\Visual Studio 2015\Projects\SHOPCLASS\SHOPCLASS\obj\Debug\BaressoApp.Form1.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\SHOPCLASS\SHOPCLASS\bin\Debug\SHOPCLASS.exe.config
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\SHOPCLASS\SHOPCLASS\obj\Debug\SHOPCLASS.exe
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\SHOPCLASS\SHOPCLASS\obj\Debug\SHOPCLASS.pdb
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\SHOPCLASS\SHOPCLASS\obj\Debug\SHOPCLASS.csprojResolveAssemblyReference.cache
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\SHOPCLASS\SHOPCLASS\obj\Debug\BaressoApp.Form1.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\SHOPCLASS\SHOPCLASS\obj\Debug\SHOPCLASS.Properties.Resources.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\SHOPCLASS\SHOPCLASS\obj\Debug\SHOPCLASS.csproj.GenerateResource.Cache

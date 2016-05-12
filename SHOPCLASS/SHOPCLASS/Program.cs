@@ -66,7 +66,7 @@ namespace BaressoApp
             
             {
                 var Shop = new Shop();
-                string str = "server=localhost;user=root;database=conntest;port=3306;password=1907;charset=latin1;";
+                string str = "server=localhost;user=root;database=conntest;port=3306;password=;charset=latin1;";
 
                 MySqlConnection conn = new MySqlConnection(str);
                 MySqlCommand cmd = new MySqlCommand("SELECT * FROM Company WHERE CompanyID = 1", conn);
