@@ -48,7 +48,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Functions\Connection_class.cs" />
-    <Compile Include="Interface\Shop.cs">
+    <Compile Include="Interface\Class1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\Shop.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Interface\Shop.Designer.cs" />
@@ -66,9 +69,7 @@
     </Compile>
     <Compile Include="Model\Customer_class.cs" />
     <Compile Include="Model\Shop_class.cs" />
-    <Compile Include="Model\Products_class.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Model\Products_class.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\User_class.cs" />
