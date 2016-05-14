@@ -1,40 +1,60 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Data.SqlClient;
 
-namespace WindowsFormsApplication6
+namespace Classes
 {
-    public partial class Form1 : Form
+    class Program
     {
-        public Form1()
+        static void Main()
         {
-            InitializeComponent();
-        }
+            SqlConnection sqlConnection1 =
+            new SqlConnection("YOUR CONNECTION STRING");
 
-        private void UpdateButton_Click(object sender, EventArgs e)
-        {
-             bool cartHasItems = false;       //Set if the cart contains items
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandType = System.Data.CommandType.Text;
+            cmd.CommandText = "INSERT Product (ProductID, ProductDescription) VALUES (6, 'Kaffe')";
+            cmd.Connection = sqlConnection1;
 
-    Cart shoppingCart = ShoppingCart(false);
-    if (!shoppingCart.IsEmpty)
-         { 
-                if (!Page.IsValid)
-         {
-                    return;
-         }
-      //
-      // reset the quanities for all the items in cart
-      //
-      DataRowCollection orderRows = shoppingCart.OrderItems.Rows;
-      int i = 0;
-      foreach (DataGridItem item in CartItemsDataGrid.Items)
-         {
-                    https://www.youtube.com/watch?v=VGiSmKYUedg
-                    https://www.youtube.com/watch?v=zKVwJ7AK7ww
-                    https://msdn.microsoft.com/en-us/library/aa288545(v=vs.71).aspx
+            sqlConnection1.Open();
+            cmd.ExecuteNonQuery();
+            sqlConnection1.Close();
+            {
+                bool value = true;
+                Console.WriteLine(value);
+
+                value = !value;
+                Console.WriteLine(value);
+
+                value = false;
+                Console.WriteLine(value);
+
+                if (value)
+                {
+                    Console.WriteLine("Fuldt menukort");
+                }
+                {
+                    if (!value)
+                    { 
+                        Console.WriteLine("Ikke fuldt menukort");
+                    
+                        public class productinfo
+                        {
+                                    public string ProductName;
+                                    public string ProductImage;
+                                    public string ProductDescription;
+                                    public string ProductPrice;
+    
+            String ProductName();
+            String ProductImage();
+            String ProductDescription();
+            int ProductPrice();
+    }
+}
+}            
+        
+    
+

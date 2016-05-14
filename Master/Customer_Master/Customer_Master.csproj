@@ -48,11 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller%28Functions%29\Connection.cs" />
-    <Compile Include="Customer_program.cs" />
     <Compile Include="Functions\Connection_class.cs" />
-    <Compile Include="Interface\Shop.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Interface\Shop.cs" />
     <Compile Include="Interface\Shop.Designer.cs" />
     <Compile Include="Interface\Browse_products.cs">
       <SubType>Form</SubType>
@@ -66,11 +63,10 @@
     <Compile Include="Functions\Log-in.Designer.cs">
       <DependentUpon>Log-in.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Class1.cs" />
     <Compile Include="Model\Customer_class.cs" />
     <Compile Include="Model\Shop_class.cs" />
-    <Compile Include="Model\Products_class.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Model\Products_class.cs" />
     <Compile Include="p4_projektDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -94,6 +90,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
     <None Include="p4_projektDataSet.xsc">
       <DependentUpon>p4_projektDataSet.xsd</DependentUpon>
     </None>
