@@ -9,13 +9,12 @@ namespace Classes
 {
     class Program
     {
-
-        static void Main(string[] args)
+        static void Main()
         {
-            System.Data.SqlClient.SqlConnection sqlConnection1 =
+            SqlConnection sqlConnection1 =
             new SqlConnection("YOUR CONNECTION STRING");
 
-            System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand();
+            SqlCommand cmd = new SqlCommand();
             cmd.CommandType = System.Data.CommandType.Text;
             cmd.CommandText = "INSERT Product (ProductID, ProductDescription) VALUES (6, 'Kaffe')";
             cmd.Connection = sqlConnection1;
@@ -53,7 +52,6 @@ namespace Classes
             String ProductImage();
             String ProductDescription();
             int ProductPrice();
-    
     }
 }
 }            

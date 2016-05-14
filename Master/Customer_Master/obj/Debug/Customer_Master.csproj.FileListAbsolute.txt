@@ -1,2 +1,7 @@
 c:\users\jens\documents\visual studio 2015\Projects\Customer_Master\Customer_Master\bin\Debug\Customer_Master.exe.config
 C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\Master\Customer_Master\bin\Debug\Customer_Master.exe.config
+C:\Users\bjarn\Documents\GitHub\bi403f16\Master\Customer_Master\bin\Debug\Customer_Master.exe.config
+C:\Users\bjarn\Documents\GitHub\bi403f16\Master\Customer_Master\obj\Debug\Customer_Master.csprojResolveAssemblyReference.cache
+C:\Users\bjarn\Documents\GitHub\bi403f16\Master\Customer_Master\obj\Debug\Projekt.Menu.resources
+C:\Users\bjarn\Documents\GitHub\bi403f16\Master\Customer_Master\obj\Debug\Customer_Master.Properties.Resources.resources
+C:\Users\bjarn\Documents\GitHub\bi403f16\Master\Customer_Master\obj\Debug\Customer_Master.csproj.GenerateResource.Cache

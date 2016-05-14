@@ -10,6 +10,13 @@ namespace MySQLConnection
 {
     public class Connection
     {
+        private string connStr;
+
+        public MySqlConnection(string connStr)
+        {
+            this.connStr = connStr;
+        }
+
         public static void ConnectToDB()
         {
             string connStr = "server=localhost;user=root;database=conntest;port=3306;password=¤¤¤¤¤¤;charset=latin1;";
