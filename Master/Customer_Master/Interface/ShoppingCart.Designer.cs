@@ -82,6 +82,7 @@
             this.Payment.TabIndex = 4;
             this.Payment.Text = "Til betaling";
             this.Payment.UseVisualStyleBackColor = true;
+            this.Payment.Click += new System.EventHandler(this.Payment_Click);
             // 
             // ShoppingCart
             // 
