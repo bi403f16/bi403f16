@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Projekt;//Burde slette fejlen længere nede, da Browse_products ligger i dette namespace
+using Projekt;
 using System.Windows.Forms;
 
 namespace Customer_Master.Interface
@@ -26,8 +26,16 @@ namespace Customer_Master.Interface
         private void BrowseProducts_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Browse_products name = new Browse_products;
+            Projekt.Menu name = new Projekt.Menu();
             name.ShowDialog();
+        }
+
+        private void Payment_Click(object sender, EventArgs e)
+        {
+            /*this.hide
+            navnpånyform var=new navnpånyform();
+            var.ShowDialog();
+            */
         }
     }
 }
