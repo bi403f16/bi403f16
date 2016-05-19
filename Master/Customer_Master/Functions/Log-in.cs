@@ -18,6 +18,7 @@ namespace Login
     {
         private string connStr;
         private MySqlConnection conn;
+        public static int CurrentUserID = -1;
         public Login()
         {
             InitializeComponent();
@@ -46,6 +47,7 @@ namespace Login
             MySqlDataReader login = cmd.ExecuteReader();
             if (login.Read())
             {
+                CurrentUserID = login.GetInt32(login.GetOrdinal("Customer_id"));
                 conn.Close();
                 return true;
             }
