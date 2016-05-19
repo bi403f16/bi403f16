@@ -37,5 +37,12 @@ namespace Customer_Master.Interface
             var.ShowDialog();
             */
         }
+
+        private void Profile_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LogintoProfile name = new LogintoProfile();
+            name.ShowDialog();
+        }
     }
 }

@@ -34,6 +34,7 @@
             this.Remove = new System.Windows.Forms.PictureBox();
             this.BrowseProducts = new System.Windows.Forms.Button();
             this.Payment = new System.Windows.Forms.Button();
+            this.Profile = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Remove)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,11 +85,22 @@
             this.Payment.UseVisualStyleBackColor = true;
             this.Payment.Click += new System.EventHandler(this.Payment_Click);
             // 
+            // Profile
+            // 
+            this.Profile.Location = new System.Drawing.Point(184, 12);
+            this.Profile.Name = "Profile";
+            this.Profile.Size = new System.Drawing.Size(88, 23);
+            this.Profile.TabIndex = 5;
+            this.Profile.Text = "Tilbage til profil";
+            this.Profile.UseVisualStyleBackColor = true;
+            this.Profile.Click += new System.EventHandler(this.Profile_Click);
+            // 
             // ShoppingCart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.Profile);
             this.Controls.Add(this.Payment);
             this.Controls.Add(this.BrowseProducts);
             this.Controls.Add(this.Remove);
@@ -109,5 +121,6 @@
         private System.Windows.Forms.TextBox Content;
         private System.Windows.Forms.Button BrowseProducts;
         private System.Windows.Forms.Button Payment;
+        private System.Windows.Forms.Button Profile;
     }
 }
