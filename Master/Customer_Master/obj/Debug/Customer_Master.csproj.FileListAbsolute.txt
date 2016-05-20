@@ -9,3 +9,8 @@ C:\Users\bjarn\Documents\GitHub\bi403f16\Master\Customer_Master\obj\Debug\Custom
 =======
 C:\Users\Johannes\Documents\GitHub\bi403f16\Master\Customer_Master\bin\Debug\Customer_Master.exe.config
 >>>>>>> 13db4add1a13eb6f206974aa6fc3708cf19beb44
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\Master\Customer_Master\obj\Debug\Customer_Master.csprojResolveAssemblyReference.cache
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\Master\Customer_Master\obj\Debug\Projekt.Menu.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\Master\Customer_Master\obj\Debug\Login.Login.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\Master\Customer_Master\obj\Debug\Customer_Master.Properties.Resources.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\Master\Customer_Master\obj\Debug\Customer_Master.csproj.GenerateResource.Cache
