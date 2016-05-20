@@ -47,8 +47,14 @@ namespace Customer_Master
             {
                 Console.WriteLine("Forbinder til databasen");
                 conn.Open();
-                string sql = "UPDATE p4_projekt.customer_table set First_name='" + BoxFornavn.Text + "',Last_name='" + BoxEfternavn.Text + "',Email='" + textBoxEmail.Text + "',Password=" + BoxPawo.Text + "WHERE Customer_id=@id";
+                string sql = @"UPDATE p4_projekt.customer_table set First_name=@firstname, Last_name=@lastname, Email=@email, Password=@password 
+                WHERE Customer_id=@id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.Parameters.Add("@firstname", MySqlDbType.VarChar).Value = BoxFornavn.Text;
+                cmd.Parameters.Add("@lastname", MySqlDbType.VarChar).Value = BoxEfternavn.Text;
+                cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = textBoxEmail.Text;
+                cmd.Parameters.Add("@password", MySqlDbType.VarChar).Value = BoxPawo.Text;
+                cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = Login.Login.CurrentUserID;
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {
@@ -74,8 +80,10 @@ namespace Customer_Master
             {
                 Console.WriteLine("Forbinder til databasen");
                 conn.Open();
-                string sql = "UPDATE p4_projekt.customer_table set Balance'" + Balance.Text + "WHERE Customer_id=@id";
+                string sql = @"UPDATE p4_projekt.customer_table set Balance=@balance WHERE Customer_id=@id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.Parameters.Add("@balance", MySqlDbType.Int32).Value = Balance.Text;
+                cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = Login.Login.CurrentUserID;
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {
