@@ -24,32 +24,34 @@ namespace Customer_Master
 
         private void TankOp_Click(object sender, EventArgs e)
         {
-            string connStr = "server=localhost;user=root;database=p4_projekt;port=3306;password=Jeppesen95;charset=latin1;";
-            MySqlConnection conn = new MySqlConnection(connStr);
-            try
+            DialogResult dialogResult = MessageBox.Show("Sure", "Some Title", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
             {
-                MessageBox.Show("Forbinder til databasen");
-                conn.Open();
-                string sql = @"UPDATE p4_projekt.customer_table set Balance=@balance WHERE Customer_id=@id";
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                cmd.Parameters.Add("@balance", MySqlDbType.Int32).Value = Balance.Text;
-                cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = Login.Login.CurrentUserID;
-                MySqlDataReader rdr = cmd.ExecuteReader();
-                while (rdr.Read())
+                string connStr = "server=localhost;user=root;database=p4_projekt;port=3306;password=Jeppesen95;charset=latin1;";
+                MySqlConnection conn = new MySqlConnection(connStr);
+                try
                 {
-                    Console.WriteLine(rdr[0] + " -- " + rdr[1]);   // [] kan ikke huske om det er array plads?!
+                    MessageBox.Show("Forbinder til databasen");
+                    conn.Open();
+                    string sql = @"UPDATE p4_projekt.customer_table set Balance=@balance WHERE Customer_id=@id";
+                    MySqlCommand cmd = new MySqlCommand(sql, conn);
+                    cmd.Parameters.Add("@balance", MySqlDbType.Int32).Value = Balance.Text;
+                    cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = Login.Login.CurrentUserID;
+                    MySqlDataReader rdr = cmd.ExecuteReader();
+                    while (rdr.Read())
+                    {
+                        Console.WriteLine(rdr[0] + " -- " + rdr[1]);   // [] kan ikke huske om det er array plads?!
+                    }
+                    rdr.Close();
+                    MessageBox.Show("Balance opdateret");
                 }
-                rdr.Close();
-                MessageBox.Show("Balance opdateret");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
 
-            conn.Close();
-            Console.WriteLine("Done.");
-            Console.ReadLine();
+                conn.Close();
+            }
         }
 
         private void Back_Click(object sender, EventArgs e)
