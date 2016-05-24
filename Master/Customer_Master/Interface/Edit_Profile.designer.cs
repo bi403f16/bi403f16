@@ -1,4 +1,4 @@
-﻿namespace Test_af_System
+﻿namespace App_interface
 {
     partial class Edit_Profile
     {

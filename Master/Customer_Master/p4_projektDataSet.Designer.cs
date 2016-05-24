@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace Customer_Master {
+namespace App_interface {
     
     
     /// <summary>
@@ -2948,7 +2948,7 @@ namespace Customer_Master {
         }
     }
 }
-namespace Customer_Master.p4_projektDataSetTableAdapters {
+namespace App_interface.p4_projektDataSetTableAdapters {
     
     
     /// <summary>
@@ -3389,7 +3389,7 @@ namespace Customer_Master.p4_projektDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::Customer_Master.Properties.Settings.Default.p4_projektConnectionString;
+            this._connection.ConnectionString = global::App_interface.Properties.Settings.Default.p4_projektConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3971,7 +3971,7 @@ namespace Customer_Master.p4_projektDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::Customer_Master.Properties.Settings.Default.p4_projektConnectionString;
+            this._connection.ConnectionString = global::App_interface.Properties.Settings.Default.p4_projektConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4551,7 +4551,7 @@ namespace Customer_Master.p4_projektDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::Customer_Master.Properties.Settings.Default.p4_projektConnectionString;
+            this._connection.ConnectionString = global::App_interface.Properties.Settings.Default.p4_projektConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5137,7 +5137,7 @@ namespace Customer_Master.p4_projektDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::Customer_Master.Properties.Settings.Default.p4_projektConnectionString;
+            this._connection.ConnectionString = global::App_interface.Properties.Settings.Default.p4_projektConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5736,7 +5736,7 @@ namespace Customer_Master.p4_projektDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::Customer_Master.Properties.Settings.Default.p4_projektConnectionString;
+            this._connection.ConnectionString = global::App_interface.Properties.Settings.Default.p4_projektConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

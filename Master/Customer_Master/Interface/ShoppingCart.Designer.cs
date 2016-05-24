@@ -1,4 +1,4 @@
-﻿namespace Customer_Master.Interface
+﻿namespace App_interface.Interface
 {
     partial class ShoppingCart
     {

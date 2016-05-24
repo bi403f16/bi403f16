@@ -8,8 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Projekt;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
-namespace Customer_Master.Interface
+namespace App_interface
 {
     public partial class ShoppingCart : Form
     {

@@ -1,4 +1,4 @@
-﻿namespace Customer_Master
+﻿namespace App_interface
 {
     partial class LogintoProfile
     {

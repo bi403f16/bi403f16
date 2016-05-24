@@ -10,7 +10,7 @@ using MySql.Data;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 
-namespace Test_af_System
+namespace App_interface
 {
     public partial class Edit_Profile : Form
     {
@@ -22,7 +22,7 @@ namespace Test_af_System
         private void Cancel_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Login.Login name = new Login.Login();
+            App_interface.Login name = new App_interface.Login();
             name.ShowDialog();
         }
 
@@ -35,7 +35,7 @@ namespace Test_af_System
                 conn.Open();
                 string sql = "SELECT First_name, Last_name, Address, City, ZIP_code, Phone_number, Password, Email, Balance FROM p4_projekt.customer_table WHERE Customer_id=@id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
-                cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = Login.Login.CurrentUserID;
+                cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = App_interface.Login.CurrentUserID;
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {
@@ -76,7 +76,7 @@ namespace Test_af_System
                     cmd.Parameters.Add("@lastname", MySqlDbType.VarChar).Value = Lastname.Text;
                     cmd.Parameters.Add("@email", MySqlDbType.VarChar).Value = E_mail.Text;
                     cmd.Parameters.Add("@password", MySqlDbType.VarChar).Value = Password.Text;
-                    cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = Login.Login.CurrentUserID;
+                    cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = App_interface.Login.CurrentUserID;
                     MySqlDataReader rdr = cmd.ExecuteReader();
                     while (rdr.Read())
                     {

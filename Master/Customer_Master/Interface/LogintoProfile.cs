@@ -8,14 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using MySql.Data;
-using Login;
-using Customer_Master;
-using Test_af_System;
 using System.Windows.Forms;
 
-namespace Customer_Master
+namespace App_interface
 {
-    public partial class LogintoProfile : System.Windows.Forms.Form
+    public partial class LogintoProfile : Form
     {
         public LogintoProfile()
         {
@@ -36,7 +33,7 @@ namespace Customer_Master
                     string sql = @"UPDATE p4_projekt.customer_table set Balance=@balance WHERE Customer_id=@id";
                     MySqlCommand cmd = new MySqlCommand(sql, conn);
                     cmd.Parameters.Add("@balance", MySqlDbType.Int32).Value = Balance.Text;
-                    cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = Login.Login.CurrentUserID;
+                    cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = App_interface.Login.CurrentUserID;
                     MySqlDataReader rdr = cmd.ExecuteReader();
                     while (rdr.Read())
                     {
@@ -57,7 +54,7 @@ namespace Customer_Master
         private void Back_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Login.Login name = new Login.Login();
+            App_interface.Login name = new App_interface.Login();
             name.ShowDialog();
         }
 
@@ -71,7 +68,7 @@ namespace Customer_Master
                 conn.Open();
                 string sql = "SELECT First_name, Last_name, Address, City, ZIP_code, Phone_number, Password, Email, Balance FROM p4_projekt.customer_table WHERE Customer_id=@id";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
-                cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = Login.Login.CurrentUserID;
+                cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = App_interface.Login.CurrentUserID;
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {

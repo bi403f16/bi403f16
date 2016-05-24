@@ -54,6 +54,7 @@ namespace Classes
             this.v = v;
         }
 
+        #region Not to be used. 
         class myConnection
         {
             public static MySqlConnection Getconnection()
@@ -109,3 +110,4 @@ namespace Classes
 //Another class definition. This one contains
 
 // the Main method, the entry point for the program.
+#endregion
