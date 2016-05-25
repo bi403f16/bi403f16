@@ -89,7 +89,7 @@ namespace App_interface
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
             this.Name = "Choose_shop";
-            this.Text = "Form1";
+            this.Text = "Vælg butik";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.shoptableBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p4_projektDataSet)).EndInit();

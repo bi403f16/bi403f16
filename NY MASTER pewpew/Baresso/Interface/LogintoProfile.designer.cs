@@ -80,7 +80,7 @@
             // 
             this.BoxFornavn.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BoxFornavn.Location = new System.Drawing.Point(339, 78);
-            this.BoxFornavn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BoxFornavn.Margin = new System.Windows.Forms.Padding(4);
             this.BoxFornavn.MaxLength = 20;
             this.BoxFornavn.Name = "BoxFornavn";
             this.BoxFornavn.ReadOnly = true;
@@ -101,7 +101,7 @@
             // 
             this.BoxEfternavn.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BoxEfternavn.Location = new System.Drawing.Point(339, 124);
-            this.BoxEfternavn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BoxEfternavn.Margin = new System.Windows.Forms.Padding(4);
             this.BoxEfternavn.MaxLength = 30;
             this.BoxEfternavn.Name = "BoxEfternavn";
             this.BoxEfternavn.ReadOnly = true;
@@ -122,7 +122,7 @@
             // 
             this.textBoxEmail.BackColor = System.Drawing.SystemColors.HighlightText;
             this.textBoxEmail.Location = new System.Drawing.Point(339, 338);
-            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxEmail.MaxLength = 50;
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.ReadOnly = true;
@@ -143,7 +143,7 @@
             // 
             this.BoxPawo.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BoxPawo.Location = new System.Drawing.Point(339, 378);
-            this.BoxPawo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BoxPawo.Margin = new System.Windows.Forms.Padding(4);
             this.BoxPawo.MaxLength = 36;
             this.BoxPawo.Name = "BoxPawo";
             this.BoxPawo.PasswordChar = '*';
@@ -165,7 +165,7 @@
             // 
             this.BoxBalance.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BoxBalance.Location = new System.Drawing.Point(339, 418);
-            this.BoxBalance.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BoxBalance.Margin = new System.Windows.Forms.Padding(4);
             this.BoxBalance.MaxLength = 36;
             this.BoxBalance.Name = "BoxBalance";
             this.BoxBalance.ReadOnly = true;
@@ -175,7 +175,7 @@
             // Balance
             // 
             this.Balance.Location = new System.Drawing.Point(64, 519);
-            this.Balance.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Balance.Margin = new System.Windows.Forms.Padding(4);
             this.Balance.MaxLength = 5;
             this.Balance.Name = "Balance";
             this.Balance.Size = new System.Drawing.Size(176, 22);
@@ -194,7 +194,7 @@
             // TankOp
             // 
             this.TankOp.Location = new System.Drawing.Point(175, 555);
-            this.TankOp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TankOp.Margin = new System.Windows.Forms.Padding(4);
             this.TankOp.Name = "TankOp";
             this.TankOp.Size = new System.Drawing.Size(100, 28);
             this.TankOp.TabIndex = 15;
@@ -204,18 +204,19 @@
             // 
             // History
             // 
-            this.History.Location = new System.Drawing.Point(449, 597);
-            this.History.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.History.Location = new System.Drawing.Point(434, 658);
+            this.History.Margin = new System.Windows.Forms.Padding(4);
             this.History.Name = "History";
-            this.History.Size = new System.Drawing.Size(100, 28);
+            this.History.Size = new System.Drawing.Size(132, 28);
             this.History.TabIndex = 16;
-            this.History.Text = "Gå til historik";
+            this.History.Text = "Tilbage til butikker";
             this.History.UseVisualStyleBackColor = true;
+            this.History.Click += new System.EventHandler(this.Tilbutikker_Click);
             // 
             // Back
             // 
             this.Back.Location = new System.Drawing.Point(47, 658);
-            this.Back.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Back.Margin = new System.Windows.Forms.Padding(4);
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(100, 28);
             this.Back.TabIndex = 17;
@@ -237,7 +238,7 @@
             // 
             this.BoxAdresse.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BoxAdresse.Location = new System.Drawing.Point(339, 169);
-            this.BoxAdresse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BoxAdresse.Margin = new System.Windows.Forms.Padding(4);
             this.BoxAdresse.Name = "BoxAdresse";
             this.BoxAdresse.ReadOnly = true;
             this.BoxAdresse.Size = new System.Drawing.Size(209, 22);
@@ -257,7 +258,7 @@
             // 
             this.BoxCity.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BoxCity.Location = new System.Drawing.Point(339, 213);
-            this.BoxCity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BoxCity.Margin = new System.Windows.Forms.Padding(4);
             this.BoxCity.Name = "BoxCity";
             this.BoxCity.ReadOnly = true;
             this.BoxCity.Size = new System.Drawing.Size(209, 22);
@@ -277,7 +278,7 @@
             // 
             this.BoxZip.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BoxZip.Location = new System.Drawing.Point(339, 255);
-            this.BoxZip.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BoxZip.Margin = new System.Windows.Forms.Padding(4);
             this.BoxZip.Name = "BoxZip";
             this.BoxZip.ReadOnly = true;
             this.BoxZip.Size = new System.Drawing.Size(209, 22);
@@ -297,7 +298,7 @@
             // 
             this.BoxPhone.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BoxPhone.Location = new System.Drawing.Point(339, 297);
-            this.BoxPhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BoxPhone.Margin = new System.Windows.Forms.Padding(4);
             this.BoxPhone.Name = "BoxPhone";
             this.BoxPhone.ReadOnly = true;
             this.BoxPhone.Size = new System.Drawing.Size(209, 22);
@@ -306,7 +307,7 @@
             // EditProfile
             // 
             this.EditProfile.Location = new System.Drawing.Point(399, 469);
-            this.EditProfile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EditProfile.Margin = new System.Windows.Forms.Padding(4);
             this.EditProfile.Name = "EditProfile";
             this.EditProfile.Size = new System.Drawing.Size(151, 28);
             this.EditProfile.TabIndex = 26;
@@ -344,9 +345,9 @@
             this.Controls.Add(this.BoxFornavn);
             this.Controls.Add(this.Firstname);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LogintoProfile";
-            this.Text = "Profile";
+            this.Text = "Din profil";
             this.Load += new System.EventHandler(this.LogintoProfile_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

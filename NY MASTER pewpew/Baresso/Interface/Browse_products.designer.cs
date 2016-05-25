@@ -1699,6 +1699,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(379, 321);
+            this.Controls.Add(this.EspressodrikkeMenu);
             this.Controls.Add(this.Brownies);
             this.Controls.Add(this.Muffins);
             this.Controls.Add(this.Scones);
@@ -1726,7 +1727,6 @@
             this.Controls.Add(this.IceblendMenu);
             this.Controls.Add(this.TeogTeDrikkeMenu);
             this.Controls.Add(this.KaffeChokoladeMenu);
-            this.Controls.Add(this.EspressodrikkeMenu);
             this.Controls.Add(this.MestTilEftermiddagKnap);
             this.Controls.Add(this.MestTilFrokostKnap);
             this.Controls.Add(this.MestTilMorgenKnap);
@@ -1736,7 +1736,7 @@
             this.Controls.Add(this.EspressodrikkeKnap);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Products";
-            this.Text = "Browse Products";
+            this.Text = "Produkter";
             this.EspressodrikkeMenu.ResumeLayout(false);
             this.KaffeChokoladeMenu.ResumeLayout(false);
             this.TeogTeDrikkeMenu.ResumeLayout(false);

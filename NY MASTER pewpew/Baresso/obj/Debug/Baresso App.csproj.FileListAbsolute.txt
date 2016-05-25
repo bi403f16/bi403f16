@@ -1,0 +1,12 @@
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\bin\Debug\Ny_master.exe.config
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\Ny_master.exe
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\Ny_master.pdb
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\Baresso App.csprojResolveAssemblyReference.cache
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\App_interface.Edit_Profile.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\App_interface.Choose_shop.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\App_interface.Login.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\App_interface.Products.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\App_interface.LogintoProfile.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\App_interface.ShoppingCart.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\Ny_master.Properties.Resources.resources
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\Baresso App.csproj.GenerateResource.Cache

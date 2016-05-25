@@ -38,43 +38,48 @@
             // labelEmail
             // 
             this.labelEmail.AutoSize = true;
-            this.labelEmail.Location = new System.Drawing.Point(64, 96);
+            this.labelEmail.Location = new System.Drawing.Point(85, 118);
+            this.labelEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(32, 13);
+            this.labelEmail.Size = new System.Drawing.Size(42, 17);
             this.labelEmail.TabIndex = 0;
             this.labelEmail.Text = "Email";
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.Location = new System.Drawing.Point(123, 93);
+            this.textBoxEmail.Location = new System.Drawing.Point(164, 114);
+            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxEmail.MaxLength = 50;
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(100, 20);
+            this.textBoxEmail.Size = new System.Drawing.Size(132, 22);
             this.textBoxEmail.TabIndex = 1;
             // 
             // labelPass
             // 
             this.labelPass.AutoSize = true;
-            this.labelPass.Location = new System.Drawing.Point(64, 126);
+            this.labelPass.Location = new System.Drawing.Point(85, 155);
+            this.labelPass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPass.Name = "labelPass";
-            this.labelPass.Size = new System.Drawing.Size(53, 13);
+            this.labelPass.Size = new System.Drawing.Size(69, 17);
             this.labelPass.TabIndex = 2;
             this.labelPass.Text = "Password";
             // 
             // textBoxPass
             // 
-            this.textBoxPass.Location = new System.Drawing.Point(123, 123);
+            this.textBoxPass.Location = new System.Drawing.Point(164, 151);
+            this.textBoxPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBoxPass.MaxLength = 36;
             this.textBoxPass.Name = "textBoxPass";
             this.textBoxPass.PasswordChar = '*';
-            this.textBoxPass.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPass.Size = new System.Drawing.Size(132, 22);
             this.textBoxPass.TabIndex = 3;
             // 
             // buttonSubmit
             // 
-            this.buttonSubmit.Location = new System.Drawing.Point(123, 168);
+            this.buttonSubmit.Location = new System.Drawing.Point(164, 207);
+            this.buttonSubmit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSubmit.Name = "buttonSubmit";
-            this.buttonSubmit.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmit.Size = new System.Drawing.Size(100, 28);
             this.buttonSubmit.TabIndex = 4;
             this.buttonSubmit.Text = "Login";
             this.buttonSubmit.UseVisualStyleBackColor = true;
@@ -82,16 +87,17 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(379, 321);
             this.Controls.Add(this.buttonSubmit);
             this.Controls.Add(this.textBoxPass);
             this.Controls.Add(this.labelPass);
             this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.labelEmail);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Login";
-            this.Text = "Login";
+            this.Text = "Log ind";
             this.ResumeLayout(false);
             this.PerformLayout();
 

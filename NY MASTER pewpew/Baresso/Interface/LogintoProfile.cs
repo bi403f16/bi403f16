@@ -61,7 +61,7 @@ namespace App_interface
         private void LogintoProfile_Load(object sender, EventArgs e)
         {
 
-            string connStr = "server=localhost;user=root;database=p4_projekt;port=3306;password=Jeppesen95;charset=latin1;";
+            string connStr = "server=localhost;user=root;database=p4_projekt;port=3306;password=pollebo1;charset=latin1;";
             MySqlConnection conn = new MySqlConnection(connStr);
             try
             {
@@ -96,6 +96,13 @@ namespace App_interface
             this.Hide();
             Edit_Profile name = new Edit_Profile();
             name.ShowDialog();
+        }
+
+        private void Tilbutikker_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Choose_shop sList = new Choose_shop();
+            sList.ShowDialog();
         }
     }
 }
