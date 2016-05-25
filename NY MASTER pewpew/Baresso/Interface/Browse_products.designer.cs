@@ -35,6 +35,7 @@
             this.MestTilMorgenKnap = new System.Windows.Forms.Button();
             this.MestTilFrokostKnap = new System.Windows.Forms.Button();
             this.MestTilEftermiddagKnap = new System.Windows.Forms.Button();
+            this.TilbageTilButikkerKnap = new System.Windows.Forms.Button();
             this.EspressodrikkeMenu = new System.Windows.Forms.Panel();
             this.EspressoTilStart = new System.Windows.Forms.Button();
             this.CappuccinoKnap = new System.Windows.Forms.Button();
@@ -289,6 +290,18 @@
             this.MestTilEftermiddagKnap.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.MestTilEftermiddagKnap.UseVisualStyleBackColor = true;
             this.MestTilEftermiddagKnap.Click += new System.EventHandler(this.MestTilEftermiddagKnap_Click);
+            // 
+            // TilbageTilButikkerKnap
+            // 
+            this.TilbageTilButikkerKnap.Location = new System.Drawing.Point(16, 275);
+            this.TilbageTilButikkerKnap.Margin = new System.Windows.Forms.Padding(4);
+            this.TilbageTilButikkerKnap.Name = "TilbageTilButikkerKnap";
+            this.TilbageTilButikkerKnap.Size = new System.Drawing.Size(347, 28);
+            this.TilbageTilButikkerKnap.TabIndex = 7;
+            this.TilbageTilButikkerKnap.Text = "Tilbage til butikker";
+            this.TilbageTilButikkerKnap.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.TilbageTilButikkerKnap.UseVisualStyleBackColor = true;
+            this.TilbageTilButikkerKnap.Click += new System.EventHandler(this.TilbageTilButikkerKnap_Click);
             // 
             // EspressodrikkeMenu
             // 
@@ -1727,6 +1740,7 @@
             this.Controls.Add(this.IceblendMenu);
             this.Controls.Add(this.TeogTeDrikkeMenu);
             this.Controls.Add(this.KaffeChokoladeMenu);
+            this.Controls.Add(this.TilbageTilButikkerKnap);
             this.Controls.Add(this.MestTilEftermiddagKnap);
             this.Controls.Add(this.MestTilFrokostKnap);
             this.Controls.Add(this.MestTilMorgenKnap);
@@ -1744,6 +1758,7 @@
             this.MestMorgenMenu.ResumeLayout(false);
             this.MestFrokostMenu.ResumeLayout(false);
             this.MestEftermiddagMenu.ResumeLayout(false);
+            this.TilbageTilButikkerKnap.ResumeLayout(false);
             this.Espresso.ResumeLayout(false);
             this.Espresso.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEspresso)).EndInit();
@@ -1820,6 +1835,7 @@
         private System.Windows.Forms.Button MestTilMorgenKnap;
         private System.Windows.Forms.Button MestTilFrokostKnap;
         private System.Windows.Forms.Button MestTilEftermiddagKnap;
+        private System.Windows.Forms.Button TilbageTilButikkerKnap;
         private System.Windows.Forms.Panel EspressodrikkeMenu;
         private System.Windows.Forms.Button EspressoTilStart;
         private System.Windows.Forms.Button CappuccinoKnap;

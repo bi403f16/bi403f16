@@ -10,3 +10,6 @@ C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\D
 C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\App_interface.ShoppingCart.resources
 C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\Ny_master.Properties.Resources.resources
 C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\obj\Debug\Baresso App.csproj.GenerateResource.Cache
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\bin\Debug\Ny_master.exe
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\bin\Debug\Ny_master.pdb
+C:\Users\Jens\Desktop\UNI\Projekt\Kode\SourceTree\NY MASTER pewpew\Baresso\bin\Debug\MySql.Data.dll

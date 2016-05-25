@@ -204,10 +204,10 @@
             // 
             // History
             // 
-            this.History.Location = new System.Drawing.Point(434, 658);
+            this.History.Location = new System.Drawing.Point(426, 658);
             this.History.Margin = new System.Windows.Forms.Padding(4);
             this.History.Name = "History";
-            this.History.Size = new System.Drawing.Size(132, 28);
+            this.History.Size = new System.Drawing.Size(148, 28);
             this.History.TabIndex = 16;
             this.History.Text = "Tilbage til butikker";
             this.History.UseVisualStyleBackColor = true;

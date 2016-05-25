@@ -56,6 +56,13 @@ namespace App_interface
             MestEftermiddagMenu.Visible = true;
         }
 
+        private void TilbageTilButikkerKnap_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Choose_shop sList = new Choose_shop();
+            sList.ShowDialog();
+        }
+
         private void EspressoKnap_Click(object sender, EventArgs e)
         {
             EspressodrikkeMenu.Visible = false;
